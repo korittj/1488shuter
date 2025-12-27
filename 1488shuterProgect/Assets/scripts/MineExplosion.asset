@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: MineExplosion
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":71.44231,"y":-60.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-122.0,"y":-102.0},"guid":"93984ee7-7ebd-40f4-8c56-28e289060a9d","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"chainable":false,"parameterNames":["obj","t"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object","System.Single"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null,"%t":{"$content":20.0,"$type":"System.Single"}},"position":{"x":63.0,"y":-72.0},"guid":"b5628f68-22ae-4410-b57e-af0fdf85206c","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"defaultValues":{},"position":{"x":-124.0,"y":22.0},"guid":"4be23b87-c920-4c2a-be23-db3f877bb872","$version":"A","$type":"Unity.VisualScripting.This","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"092e96e7-9fa8-4cc1-b918-4b4e55996e0b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"self","destinationUnit":{"$ref":"11"},"destinationKey":"%obj","guid":"31b3a865-ee20-4f4b-bb4e-fc511db060b7","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-157.8,"yMin":-158.0,"xMax":215.0,"yMax":155.8},"label":"start","comment":null,"color":{"r":0.9018868,"g":0.6867693,"b":0.2841794,"a":1.0},"guid":"66b94aaa-5094-4f84-ad19-2b063bf0d4a3","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
